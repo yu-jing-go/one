@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	char s[5]="good",t[5];
+	int i;
+	for(i=0;t[i]=s[i];i++);
+	for(i=0;i<4;i++)
+	printf("%c",t[i]);
+	return 0;
+}
